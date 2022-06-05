@@ -23,6 +23,7 @@ body {
 /* Reset */
 
 .btn-reset {
+  font-family: inherit;
   border: none;
   cursor: pointer;
 }
@@ -70,8 +71,15 @@ body {
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
-  color: var(--color-secondary-text);
   text-decoration: none;
+}
+
+.logo-header {
+  color: var(--color-secondary-text);
+}
+
+.logo-footer {
+  color: var(--color-white);
 }
 
 .logo-text {
